@@ -14,8 +14,12 @@ $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Build Flags
 USE_PROTON := true
+TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
+IS_PHONE := true
+CORVUS_MAINTAINER=Anant_Goel && Dextyy5
 
 # Inherit from Mi439 device
 $(call inherit-product, device/xiaomi/Mi439/device.mk)

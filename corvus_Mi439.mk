@@ -24,7 +24,6 @@ GAPPS_VARIANT := stock
 
 # Inherit from Mi439 device
 $(call inherit-product, device/xiaomi/Mi439/device.mk)
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \

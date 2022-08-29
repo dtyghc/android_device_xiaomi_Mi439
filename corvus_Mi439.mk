@@ -20,9 +20,11 @@ TARGET_USES_BLUR := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 IS_PHONE := true
 CORVUS_MAINTAINER=Anant_Goel && Dextyy5
+GAPPS_VARIANT := stock
 
 # Inherit from Mi439 device
 $(call inherit-product, device/xiaomi/Mi439/device.mk)
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \

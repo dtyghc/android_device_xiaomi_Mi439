@@ -21,6 +21,7 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 IS_PHONE := true
 CORVUS_MAINTAINER=Anant_Goel && Dextyy5
 GAPPS_VARIANT := stock
+WITH_GAPPS := true
 
 # Inherit from Mi439 device
 $(call inherit-product, device/xiaomi/Mi439/device.mk)

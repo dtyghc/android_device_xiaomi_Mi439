@@ -20,6 +20,8 @@ TARGET_USES_BLUR := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 IS_PHONE := true
 TARGET_USES_MINI_GAPPS := true
+TARGET_GAPPS_VARIANT := stock
+TARGET_WITH_GAPPS := true
 
 # Inherit from Mi439 device
 $(call inherit-product, device/xiaomi/Mi439/device.mk)

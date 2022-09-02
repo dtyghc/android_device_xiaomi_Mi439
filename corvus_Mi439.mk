@@ -21,7 +21,6 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 IS_PHONE := true
 CORVUS_MAINTAINER=Anant_Goel && Dextyy5
 GAPPS_VARIANT := stock
-WITH_GAPPS := true
 
 # Inherit from Mi439 device
 $(call inherit-product, device/xiaomi/Mi439/device.mk)
@@ -43,7 +42,7 @@ TARGET_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="olive-user 10 QKQ1.191014.001 V12.5.1.0.QCNMIXM release-keys"
+    PRIVATE_BUILD_DESC="olive-user 13 TPP2.220218.010 V12.5.1.0.QCNMIXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Xiaomi/olive/olive:10/QKQ1.191014.001/V12.5.1.0.QCNMIXM:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:Tiramisu/TPP2.220218.010/8278900:user/release-keys"

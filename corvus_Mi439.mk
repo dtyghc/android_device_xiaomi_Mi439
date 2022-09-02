@@ -18,9 +18,11 @@ TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_USES_MINI_GAPPS := true
 IS_PHONE := true
 CORVUS_MAINTAINER=Anant_Goel && Dextyy5
-GAPPS_VARIANT := stock
+TARGET_GAPPS_VARIANT := stock
+TARGET_WITH_GAPPS := true
 
 # Inherit from Mi439 device
 $(call inherit-product, device/xiaomi/Mi439/device.mk)

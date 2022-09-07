@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
     xiaomi_olive_overlay_SystemUI
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-xdroid
 
 # Boot animation

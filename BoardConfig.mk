@@ -31,6 +31,7 @@ TARGET_OTA_ASSERT_DEVICE := pine,olive,olivelite,olivewood,olives,mi439,Mi439
 
 # Display
 TARGET_SCREEN_DENSITY := 320
+ALLOW_MISSING_DEPENDENCIES := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/manifest/gatekeeper.xml

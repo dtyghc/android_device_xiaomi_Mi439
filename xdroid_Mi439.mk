@@ -20,6 +20,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_USES_MINI_GAPPS := true
 IS_PHONE := true
 
 # Inherit from Mi439 device
@@ -27,8 +28,8 @@ $(call inherit-product, device/xiaomi/Mi439/device.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
-    xiaomi_pine_overlay_lineage \
-    xiaomi_olive_overlay_lineage
+    xiaomi_pine_overlay_corvus \
+    xiaomi_olive_overlay_corvus
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439

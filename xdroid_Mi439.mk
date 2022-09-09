@@ -8,6 +8,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
+$(call inherit-product-if-exists, vendor/google/gms/config.mk)
 
 # Inherit some common xdroidsp stuff.
 $(call inherit-product, vendor/xdroid/config/common.mk)

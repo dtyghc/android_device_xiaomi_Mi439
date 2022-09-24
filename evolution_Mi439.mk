@@ -11,6 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Evolution-X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/gms/gms_full.mk)
 
 # Inherit from Mi439 device
 $(call inherit-product, device/xiaomi/Mi439/device.mk)

@@ -11,7 +11,6 @@ TARGET_EXCLUDE_CRYPTFSHW := true
 TARGET_USES_DEVICE_SPECIFIC_GATEKEEPER := true
 
 
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
 RemovePackages

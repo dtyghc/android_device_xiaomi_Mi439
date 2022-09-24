@@ -7,7 +7,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
     arcore \
-    Chrome \
     Chrome-Stub \
     ConnMO \
     ConnMetrics \
@@ -16,7 +15,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     DMService \
     Drive \
     GCS \
-    GoogleCamera \
     GoogleCameraGo \
     GrapheneOS-Camera \
     Maps \
@@ -31,7 +29,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     PixelLiveWallpaperPrebuilt \
     Photos \
     PlayAutoInstallConfig \
-    PrebuiltGmail \
     RecorderPrebuilt \
     SafetyHubPrebuilt \
     SCONE \
@@ -48,8 +45,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     Videos \
     VZWAPNLib \
     VzwOmaTrigger \
-    YouTube \
-    YouTubeMusicPrebuilt \
 Velvet
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED

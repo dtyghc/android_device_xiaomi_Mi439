@@ -16,6 +16,17 @@ TARGET_USES_DEVICE_SPECIFIC_GATEKEEPER := true
 PRODUCT_PACKAGES += \
 RemovePackages
 
+# Fstab
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.zram:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.zram
+
+
+# ZRAM writeback
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.zram.mark_idle_delay_mins=60 \
+    ro.zram.first_wb_delay_mins=1440 \
+    ro.zram.periodic_wb_delay_hours=24
+
 # Keymaster
 TARGET_USES_DEVICE_SPECIFIC_KEYMASTER := true
 

@@ -11,3 +11,6 @@
 
 # Thermal
 /(vendor|system/vendor)/bin/thermal-engine-olive	u:object_r:thermal-engine_exec:s0
+
+# Smart Charging
+/sys/class/power_supply/battery/input_suspend                        u:object_r:vendor_sysfs_battery_supply:s0

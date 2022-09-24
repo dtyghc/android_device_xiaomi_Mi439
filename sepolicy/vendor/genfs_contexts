@@ -7,3 +7,6 @@ genfscon sysfs /class/fm/fm_lan_enable/lan_enable u:object_r:sysfs_fm_lan:s0
 # Huaqin
 genfscon sysfs /class/huaqin/		u:object_r:huaqin_sysfs:s0
 genfscon sysfs /devices/virtual/huaqin/	u:object_r:huaqin_sysfs:s0
+
+# Charger
+genfscon sysfs /sys/class/power_supply/battery/input_suspend    u:object_r:vendor_sysfs_battery_supply:s0
